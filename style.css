@@ -1,0 +1,56 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(68, 62, 55);
+    width: 100%;
+}
+ header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 24px;
+    color: rgb(170, 34, 34);
+    font-family: "Rajdhani", sans-serif;
+}
+p{
+    font-size: 16px;
+    color: rgb(14, 14, 14);
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(161, 152, 152);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center ;
+    align-items: center;
+}
+.caja img{
+    border-radius: 50%;
+   
+}.caja p{
+    font: 12px;
+}
+.agradecimiento{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(14, 13, 13);
+}
